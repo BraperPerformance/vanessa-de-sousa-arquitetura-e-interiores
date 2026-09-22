@@ -1,0 +1,26 @@
+SITE — VANESSA DE SOUSA · ARQ. & INTERIORES (versão 2026)
+==========================================================
+
+Arquivos
+--------
+index.html                          página principal
+img/                                fotos do site (extraídas do portfólio 2026 + fotos enviadas)
+pages/                              as 41 páginas do portfólio, usadas no visualizador embedado
+portfolio-vanessa-de-sousa-2026.pdf portfólio compactado para download (8 MB; o original tinha 109 MB)
+
+Como publicar
+-------------
+Envie a pasta inteira para a hospedagem (Hostinger, Netlify Drop, Vercel,
+GitHub Pages, cPanel). Não precisa de servidor nem banco de dados.
+
+Formulário de contato
+---------------------
+Por padrão abre o WhatsApp (11 95220-8864) com a mensagem preenchida.
+Para receber por e-mail: crie um formulário em https://formspree.io e cole o
+endereço na linha  const FORM_ENDPOINT = "";  dentro do index.html.
+
+Atualizar o portfólio
+---------------------
+1. Substitua portfolio-vanessa-de-sousa-2026.pdf pelo novo PDF (mesmo nome).
+2. Gere as páginas como JPG (1440x810) e salve em pages/ como 01.jpg, 02.jpg…
+   Se o número de páginas mudar, ajuste a lista PAGES no final do index.html.
